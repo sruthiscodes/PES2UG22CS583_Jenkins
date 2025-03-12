@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'g++ /main/hello.cpp -o output'  // Compile the C++ file into an executable named output
+        sh 'g++ main/hello.cpp -o output'  // Compile the C++ file into an executable named output
       }
     }
     stage('Test') {
