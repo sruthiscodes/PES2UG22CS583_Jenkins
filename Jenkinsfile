@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh './output'  // Run the compiled file
+        sh './output  // Run the compiled file
       }
     }
     stage('Deploy') {
